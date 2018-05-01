@@ -151,22 +151,22 @@ document.getElementById('hangman').onsubmit = function (e) {
                 document.getElementById('currentletter').innerHTML = 'Previous Guesses: ' + lettersGuessed + ' ';
                 /*if (wrongGuesses === 0) */
                 if (wrongGuesses == 1) {
-                    document.getElementById("hmImg").src = 'images/hangman-1.png';
+                    document.getElementById("hmImg").src = 'hangman-1.png';
                 }
                 else if (wrongGuesses == 2) {
-                    document.getElementById("hmImg").src = 'images/hangman-2.png';
+                    document.getElementById("hmImg").src = 'hangman-2.png';
                 }
                 else if (wrongGuesses == 3) {
-                    document.getElementById("hmImg").src = 'images/hangman-3.png';
+                    document.getElementById("hmImg").src = 'hangman-3.png';
                 }
                 else if (wrongGuesses == 4) {
-                    document.getElementById("hmImg").src = 'images/hangman-4.png';
+                    document.getElementById("hmImg").src = 'hangman-4.png';
                 }
                 else if (wrongGuesses == 5) {
-                    document.getElementById("hmImg").src = 'images/hangman-5.png';
+                    document.getElementById("hmImg").src = 'hangman-5.png';
                 }
                 else if (wrongGuesses == 6) {
-                    document.getElementById("hmImg").src = 'images/hangman-6.png';
+                    document.getElementById("hmImg").src = 'hangman-6.png';
                     gameOver();
                 }
             
